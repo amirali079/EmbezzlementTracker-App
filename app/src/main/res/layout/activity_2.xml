@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".activity_2"
+    android:background="@drawable/img">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="5">
+
+        <Button
+            android:layout_marginTop="150dp"
+            android:background="@drawable/shape"
+            android:id="@+id/btn_faze1"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="خواندن اطلاعات"
+            android:textColor="#FFDF00"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:background="@drawable/shape"
+            android:id="@+id/btn_faze2"
+            android:layout_weight="1"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="شفاف سازی اموال"
+            android:textColor="#FFDF00"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:background="@drawable/shape"
+            android:id="@+id/btn_faze3"
+            android:layout_weight="1"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="حسابرسی"
+            android:textColor="#FFDF00"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:background="@drawable/shape"
+            android:id="@+id/btn_faze4"
+            android:layout_weight="1"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="افول شیاطین"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFDF00"
+            />
+
+        <Button
+            android:background="@drawable/shape"
+            android:id="@+id/btn_info"
+            android:layout_weight="1"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="درباره ما"
+            android:textColor="#FFDF00"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
